@@ -13,7 +13,6 @@ strategy_description = 'betray the first round. then betray unless last round, a
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
     my_score, their_score are ints.
-    
     Make my move.
     Returns 'c' or 'b'. 
     '''
